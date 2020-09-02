@@ -30,27 +30,27 @@
 </script>
 
 <style>
-  :global(.page) {
+  .page {
     width: 100%;
     min-height: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  :global(.container) {
-    width: 620px;
+  .container {
+    width: 800px;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
   }
   .wrapper {
-    width: 620px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
   }
   section.list {
-    width: 300px;
+    width: calc(50% - 10px);
     border: 1px solid #eeeeee;
     padding: 8px;
     box-sizing: border-box;

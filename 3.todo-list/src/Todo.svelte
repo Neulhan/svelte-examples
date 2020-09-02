@@ -16,8 +16,6 @@
     display: flex;
     justify-content: space-between;
   }
-  .text {
-  }
   .icon {
     cursor: pointer;
   }
