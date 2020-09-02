@@ -20,13 +20,19 @@
   .font-box:hover {
     transform: scale(1.05);
   }
+  .head {
+    margin-bottom: 16px;
+  }
   :global(.font-box:nth-child(4n)) {
     margin-right: 0;
   }
 </style>
 
-<div
-  class="font-box"
-  style="font-family: '{font}', sans-serif; font-size: {size}px">
-  {text}
+<div class="font-box">
+  <div class="head">{font}</div>
+  <div
+    class="text"
+    style="font-family: '{font}', sans-serif; font-size: {size}px">
+    {text}
+  </div>
 </div>
