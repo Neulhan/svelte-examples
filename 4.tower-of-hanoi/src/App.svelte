@@ -2,8 +2,9 @@
   import Tower from "./Tower.svelte";
   import Complete from "./Complete.svelte";
   import { drop } from "./sound.js";
-  let length = 4;
+  let length = 7;
   let show = false;
+
   const close = () => {
     show = false;
     data = JSON.parse(JSON.stringify(dataSet));
